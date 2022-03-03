@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+
+.navigation > .left {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.navigation > .left > a {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.navigation > .left > a > .navigation_logo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navigation > .left > .navigation_routes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  height: inherit;
+}
+
+.navigation > .left > .navigation_routes > li {
+  height: inherit;
+}
+
+.navigation > .left > .navigation_routes > li > a {
+  padding: 20px;
+  text-decoration: none;
+  color: #363636;
+  height: 100%;
+}
+
+.navigation > .right {
+  margin-right: 20px;
+}
+
+.search_focus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+.listings_peek {
+  color: black;
+}
+
+.content_scale {
+  width: 100%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .content_scale {
+    width: 999px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content_scale {
+    width: 1150px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .content_scale {
+    width: 1450px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .content_scale {
+    width: 1850px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
